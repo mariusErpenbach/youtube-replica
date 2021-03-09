@@ -1,4 +1,35 @@
 body{
     background-color:green;
 }
-header{}
+#topHeader{
+    width:100%;
+    height:3vw;
+    background-color:grey;
+}
+
+#profileBanner{
+    margin-left:14vw;
+    width:86vw;
+    height:30vw;
+    background-color:black;
+}
+nav{
+    margin-left:14vw;
+    width:86vw;
+    height:20vw;
+    background-color:yellow;
+}
+#videos{
+    margin-left:14vw;
+    width:86vw;
+    height:60vw;
+    background-color:rgb(94, 14, 126);
+}
+aside{
+    position:absolute;
+    top:3.9vw;
+    width:14vw;
+    height:100vw;
+    background-color:rgb(19, 226, 226);
+}
+

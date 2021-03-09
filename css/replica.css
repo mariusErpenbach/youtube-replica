@@ -4,9 +4,10 @@ body{
 }
 #topHeader{
     position:fixed;
+    
     display:flex;
     width:100%;
-    height:10rem;
+    height:5rem;
    
     border-style:solid;
     border-color:red;
@@ -46,11 +47,11 @@ body{
 }
 #profileBanner{
     position:relative;
-    top:10.1rem;
+    top:5.1rem;
     display:flex;
     margin-left:13.1rem;
     width:auto;
-    height:40rem;
+    height:30rem;
     border-style:dotted;
     border-color:orange;
 
@@ -73,43 +74,65 @@ nav{
 }
 aside{
     position:fixed;
-    top:10.6rem;
+    top:5.6rem;
     display:flex;
-  
+    overflow-y: scroll;
+    top: 5.6rem;
+    bottom: -50rem;
     width:13rem;
-    height:100vh;
+    height:95vh;
+    background-color:#202020;
     border-style:dotted;
     border-color:yellow;
     flex-direction: column;
     align-items: center;
  
 }
-#aside-top-section{
-    margin-top:8%;
-    width:100%;
-    height:20%;
-    border-width:0px  0px 1px 0px;
+aside>section>ul{
     border-style:dotted;
-    border-color:black;
+    height:10%;
+    margin-bottom:-10%;
 }
-
-#aside-mid-section{
-    margin-top:4%;
+aside>section>ul:hover{
+background-color:grey;
+}
+#aside-top-section{
+    display:flex;
+    flex-direction: column;
     width:100%;
-    height:40%;
-    border-style:dotted;
-    border-color:black;
+    height:auto;
+
+}
+#aside-top-section>ul{
+    height:30%;
+}
+#aside-mid-section{
+    margin-top:10%;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    border-style:solid;
+    border-width:2px 0 0 0 ;
+    border-radius:1%;
+    border-color:#373737;
+}
+#aside-mid-section>ul{
+    height:20%;
 }
 #aside-bottom-section{
-    margin-top:7%;
+    margin-top:20%;
+    display:flex;
+    flex-direction: column;
     width:100%;
-    height:100%;
+    height:auto;
     border-style:dotted;
     border-color:black;
 }
 .sideButton{
-    margin-top:-12%;
-    height:2rem;
+  
+    height:100%;
     width:100%;
     margin-left:-10%;
+    padding:1%;
 }

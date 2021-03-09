@@ -1,35 +1,61 @@
 body{
+
     background-color:green;
 }
 #topHeader{
+    position:fixed;
+    display:flex;
     width:100%;
-    height:3vw;
-    background-color:grey;
+    height:10rem;
+   
+    border-style:solid;
+    border-color:red;
+}
+ #threeBarIcon{
+    align-self:center;
+    width:10rem;
+    height:10rem;
+    background-color:tomato;
+} 
+#logo{
+    height:75%;
+    width:auto;
 }
 
 #profileBanner{
-    margin-left:14vw;
-    width:86vw;
-    height:30vw;
-    background-color:black;
+    position:relative;
+    top:10.1rem;
+    display:flex;
+    margin-left:13.1rem;
+    width:auto;
+    height:40rem;
+    border-style:dotted;
+    border-color:orange;
+
 }
 nav{
-    margin-left:14vw;
-    width:86vw;
-    height:20vw;
-    background-color:yellow;
+    display:flex;
+    margin-left:13.1rem;
+    width:auto;
+    height:10rem;
+    border-style:dotted;
+    border-color:yellow;
 }
 #videos{
-    margin-left:14vw;
-    width:86vw;
-    height:60vw;
-    background-color:rgb(94, 14, 126);
+    display:flex;
+    margin-left:13.1rem;
+    width:auto;
+    height:60rem;
+    border-style:dotted;
+    border-color:yellow;
 }
 aside{
-    position:absolute;
-    top:3.9vw;
-    width:14vw;
-    height:100vw;
-    background-color:rgb(19, 226, 226);
+    position:fixed;
+    top:10.6rem;
+    display:flex;
+    width:13rem;
+    height:100vh;
+    border-style:dotted;
+    border-color:yellow;
 }
 

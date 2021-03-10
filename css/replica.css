@@ -14,9 +14,9 @@ body{
 }
  #threeBarIcon{ 
     align-self:center;
-    margin-left:1%;
-   width:2.5%;
     height:50%;
+    width:2%;
+  
     border-style:dotted;
     border-color:tomato;
 } 
@@ -56,14 +56,43 @@ body{
     background-color:#303030;
 }
 #voiceInput{
+    align-self:center;
+    position:relative;
+    right:17%;
     background-color:yellow;
+    height:40%;
+    width:2%;
 }
 #headingButtons{
+    display:flex;
+    margin-right:1%;
     align-self:center;
-    width:7%;
+    width:20%;
     height:50%;
     border-style:dotted;
     border-color:cadetblue;
+}
+.headingIcon{
+    padding:1%;
+    margin-left:5%;
+    margin-right:2%;
+    width:15%;
+    height:75%;
+    border-style:dotted;
+    border-color:white;
+}
+.profilePicture{
+    border-style:dotted;
+border-color:white;
+height:50%;
+width:30%;
+}
+#profilePictureButton{
+    width:13%;
+    height:100%;
+    margin-left:12%;
+    border-style:solid;
+    border-radius:100%;
 }
 #profileBanner{
     position:relative;
@@ -86,6 +115,34 @@ nav{
     background-color:#373737;
     border-style:dotted;
     border-color:yellow;
+}
+#profileSection{
+background-color:hotpink;
+height:65%;
+min-width:20%;
+position:relative;
+right:-15%;
+}
+#navBar{
+    margin-right:13rem;
+ 
+    width:80%;
+    height:30%;
+    display:flex;
+    align-self:center;
+    flex-wrap:wrap;
+    align-self:flex-end;
+    justify-content: center;
+    align-content:flex-end;
+    flex-direction: row;
+    color:white;
+    border-style:dotted;
+    border-color:white;
+   
+}
+.navButton{
+    
+height:100%;
 }
 #videos{
     position:relative;
@@ -110,7 +167,7 @@ aside{
     border-color:#202020;
     flex-direction: column;
     align-items: center;
- 
+    
 }
 aside>section>ul{
     background-color:white;

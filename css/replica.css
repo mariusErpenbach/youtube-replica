@@ -1,6 +1,6 @@
 body{
     
-    background-color:green;
+    background-color:#1F1F1F;
 }
 #topHeader{
     position:fixed;
@@ -10,7 +10,8 @@ body{
     height:5rem;
     background-color:#1F1F1F;
     border-style:solid;
-    border-color:red;
+    border-color:white;
+   z-index: 2;
 }
  #threeBarIcon{ 
     align-self:center;
@@ -90,7 +91,7 @@ body{
 }
 #profileBanner{
     position:relative;
-    top:5.1rem;
+    top:5.3rem;
     display:flex;
     margin-left:13.1rem;
     width:auto;
@@ -208,6 +209,20 @@ top:10%;
     background-color:#0C0C0C;
     border-style:dotted;
     border-color:yellow;
+    justify-content:center;
+}
+#videos > main  > header{
+    position:absolute;
+    color:#E2E2E2;
+    font-size:1.7em;
+}
+#videos > main {
+    margin-top:3%;
+    display:flex;
+    border-style:dotted;
+    border-color:white;
+    width:90%;
+    height:100%;
 }
 aside{
     position:fixed;

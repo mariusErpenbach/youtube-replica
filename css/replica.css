@@ -4,42 +4,62 @@ body{
 }
 #topHeader{
     position:fixed;
-    
     display:flex;
+    flex-direction: row;
     width:100%;
     height:5rem;
-   
+    background-color:#1F1F1F;
     border-style:solid;
     border-color:red;
 }
- #threeBarIcon{
+ #threeBarIcon{ 
     align-self:center;
     margin-left:1%;
-    width:5rem;
-    height:5rem;
+   width:2.5%;
+    height:50%;
     border-style:dotted;
     border-color:tomato;
 } 
 #logo{
     margin-left:1%;
     align-self:center;
-    height:5rem;
-    width:15rem;
+    height:50%;
+    width:8%;
     border-style:dotted;
     border-color:wheat;
 }
-#searchbar{
+#searchSection{
+    display:flex;
+    flex-direction: row;
     align-self:center;
     margin-left:auto;
     margin-right:auto;
-    width:40%;
-    height:60%;
+    width:30%;
+    height:40%;
     border-style:dotted;
-    border-color:violet;
+    border-color:#303030;
+    background-color:#303030;
+}
+#searchbar{
+    color:#F0F0F0;
+    align-self:center;
+    width:90%;
+    height:95%;
+    background-color:#111111;
+    border-width:0;
+}
+#searchButton{
+    align-self:center;
+    border-width:0;
+    height:95%;
+    width:10%;
+    background-color:#303030;
+}
+#voiceInput{
+    background-color:yellow;
 }
 #headingButtons{
     align-self:center;
-    margin-right:2.1%;
     width:7%;
     height:50%;
     border-style:dotted;
@@ -51,51 +71,61 @@ body{
     display:flex;
     margin-left:13.1rem;
     width:auto;
-    height:30rem;
+    height:15rem;
     border-style:dotted;
     border-color:orange;
 
 }
 nav{
+    position:relative;
+    top:5.1rem;
     display:flex;
     margin-left:13.1rem;
     width:auto;
     height:10rem;
+    background-color:#373737;
     border-style:dotted;
     border-color:yellow;
 }
 #videos{
+    position:relative;
+    top:5.1rem;
     display:flex;
     margin-left:13.1rem;
     width:auto;
     height:60rem;
+    background-color:#0C0C0C;
     border-style:dotted;
     border-color:yellow;
 }
 aside{
     position:fixed;
-    top:5.6rem;
+    top:5.7rem;
     display:flex;
-    overflow-y: scroll;
-    top: 5.6rem;
-    bottom: -50rem;
+    
     width:13rem;
     height:95vh;
     background-color:#202020;
-    border-style:dotted;
-    border-color:yellow;
+    border-style:solid;
+    border-color:#202020;
     flex-direction: column;
     align-items: center;
  
 }
 aside>section>ul{
-    border-style:dotted;
+    background-color:white;
     height:10%;
-    margin-bottom:-10%;
+    margin-top:5%;
 }
-aside>section>ul:hover{
+aside>section>ul:hover  {
+    background-color:grey;
+    }
+aside>section>ul:hover > .sideButton {
 background-color:grey;
 }
+aside>section>ul:hover > {
+    background-color:grey;
+    }
 #aside-top-section{
     display:flex;
     flex-direction: column;
@@ -104,7 +134,8 @@ background-color:grey;
 
 }
 #aside-top-section>ul{
-    height:30%;
+  height:2em;
+  margin-bottom:-1%;
 }
 #aside-mid-section{
     margin-top:10%;
@@ -118,7 +149,8 @@ background-color:grey;
     border-color:#373737;
 }
 #aside-mid-section>ul{
-    height:20%;
+    height:2em;
+  margin-bottom:-1%;
 }
 #aside-bottom-section{
     margin-top:20%;
@@ -126,13 +158,22 @@ background-color:grey;
     flex-direction: column;
     width:100%;
     height:auto;
-    border-style:dotted;
+    border-style:solid;
     border-color:black;
+    border-width:2px 0 0 0 ;
+    border-radius:1%;
+    border-color:#373737;
+}
+#aside-bottom-section>ul{
+    height:1.5em;
+    margin-bottom:-1%;
 }
 .sideButton{
-  
+    text-align:start;
     height:100%;
     width:100%;
-    margin-left:-10%;
     padding:1%;
+    color:#F0F0F0;
+    border-width:0;
+    background-color:#202020;
 }

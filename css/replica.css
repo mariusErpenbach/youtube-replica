@@ -256,16 +256,52 @@ top:10%;
     height:100%;
 }
 #videoTitle{
-    height:19%;
+
+   
+    font-size:1.7em;
+
     width:100%;
-    background-color:powderblue;
+    color:white;
     border-width:0;
+ 
+
+}
+#videoTitle > p {
+text-align:start;
+ margin-top:-4%;
 }
 #videoStatistics{
-    height:19%;
+    margin-left:-10%;
+ 
+    display:flex;
+    flex-direction:row;
+    justify-items: center;
+    height:3rem;
     width:100%;
-    background-color:rebeccapurple;
-    border-width:0;
+    border-style:dotted;
+    border-color:yellow;
+    background-color:red;
+}
+#videoStatistics > ul{
+    display:flex;
+    flex-direction: row;
+    border-color:white;
+    border-style:dotted;
+    height:70%;
+    width:100%;
+    justify-items:center;
+   
+    }
+#videoStatistics>ul>li{
+border-style:dotted;
+border-color:blue;
+width:auto;
+margin-left:-5%;
+margin-right:-8%;
+}
+#viewNumber{
+    list-style-type: none;
+  
 }
 aside{
     position:fixed;

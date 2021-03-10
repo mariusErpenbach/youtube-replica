@@ -4,6 +4,7 @@ body{
 }
 #topHeader{
     position:fixed;
+    top:0;
     display:flex;
     flex-direction: row;
     width:100%;
@@ -229,7 +230,7 @@ top:10%;
     border-style:dotted;
     border-color:peachpuff;
     height:60vw;
-    width:100%
+    width:100%;
 }
 #videoTable > tr {
     border-style:dotted;

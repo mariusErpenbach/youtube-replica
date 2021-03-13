@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/058434cd7c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/replica.css" type="text/css">
     <title>Youtube-Replica</title>
 </head>
 
 <body>
-
+    <!-- header section -->
     <header id="topHeader">
-        <div id="threeBarIcon"></div>
-        <section id="logo"></section>
+        <div id="threeBarIcon">  <img src="./img/Hamburger_icon.svg.png"></div>
+        <section id="logo">
+            <img src="./img/urp-logo.png">
+        </section>
         <section id="searchSection">
             <input id="searchbar" />
-            <button id="searchButton" type="button"> </button> <!-- search icon needed-->
+            <button id="searchButton" type="button"> <i class="fas fa-search"></i></button> <!-- search icon needed-->
+            <span id="voiceInput"><a id ="voiceInputButton" style="text-decoration: none" href=""> <i class="fas fa-microphone"> </i> </a></span>
         </section>
-        <span id="voiceInput"></span>
+       
         <section id="headingButtons">
             <span class="headingIcon"></span>
             <span class="headingIcon"></span>
@@ -26,31 +30,31 @@
             <span id="profilePictureButton"></span>
         </section>
     </header>
+    <!-- second section -->
     <div id="profileBanner">
         <img src="./img/Screenshot 2021-03-10 091602.png">
     </div>
-    <nav>
-        <div class="profilePicture"></div>
+    <nav> <!--third section-->
+        <div class="profilePicture">
+        </div>
         <div id="profileSection">
             <h1 id="profileName">Paris Hilton</h1>
             <p id="subscriptionNumber">1,05M subscribers</p>
         </div>
-        <button id="subscribeButton" type="button">SUBSCRIBE</button>
+        <button id="subscribeButton" type="button"><p>SUBSCRIBE</p></button>
+        <!--   fourth section  -->
         <div id="navBar">
-            <table>
-                <tr>
-                    <th><button class="navButton">HOME</button></th>
-                    <th><button class="navButton">VIDEOS</button></th>
-                    <th><button class="navButton">PLAYLISTS</button></th>
-                    <th><button class="navButton">COMMUNITY</button></th>
-                    <th><button class="navButton">STORE</button></th>
-                    <th><button class="navButton">CHANNELS</button></th>
-                    <th><button class="navButton">ABOUT</button></th>
-                    <th><button class="navButton">SEARCH</button></th>
-                </tr>
-            </table>
+                <button class="navButton">HOME</button>
+                   <button class="navButton">VIDEOS</button>
+                <button class="navButton">PLAYLISTS</button>
+                   <button class="navButton">COMMUNITY</button>
+                    <button class="navButton">STORE</button>
+                   <button class="navButton">CHANNELS</button>
+                   <button class="navButton">ABOUT</button>
+                   <button class="navButton">SEARCH</button>
         </div>
     </nav>
+<!-- fifth section  -->    
     <section id="videos">
         <main>
             <header>Uploads</header>
@@ -150,7 +154,7 @@
                     </th>
                     <th>
                         <div class="videoContainer">
-                            <div id="videoThumbnail"><img src="./img/Screenshot 2021-03-10 104056.png"/></div>
+                            <div id="videoThumbnail"><img src="./img/qweqst.png"/></div>
                             <div id="videoTitle"> </div>
                             <div id="videoStatistics"></div>
                         </div>
@@ -184,6 +188,7 @@
             </table>
         </main>
     </section>
+    <!-- side section  -->    
     <aside>
         <section id="aside-top-section">
             <table>
@@ -207,7 +212,7 @@
                 <ul> <button class="sideButton">DW documentary</button></ul>
                 <ul> <button class="sideButton">Tagesshow</button></ul>
                 <ul> <button class="sideButton">Pro Home Cooks</button></ul>
-                <ul> <button class="sideButton">Karl COnrad</button></ul>
+                <ul> <button class="sideButton">Karl Conrad</button></ul>
                 <ul> <button class="sideButton">Marques Brownlee</button></ul>
                 <ul> <button class="sideButton">Business Insider</button></ul>
                 <ul> <button class="sideButton">Tasty</button></ul>
